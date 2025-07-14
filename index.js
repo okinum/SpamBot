@@ -81,7 +81,7 @@ client.on('messageCreate', async(message) =>{
                 message.delete()
             }
             else{
-                message.channel.send("``.Spam text(string) time(int) delay(int) {Use '(b)' for a space in text. Use '(rng)' for a random number}.``")
+                message.channel.send("``.Spam text(string) times(int) delay(int) {Use '(b)' for a space in text. Use '(rng)' for a random number}.``")
             }
 
         }
