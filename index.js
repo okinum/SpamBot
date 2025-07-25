@@ -20,7 +20,7 @@ client.on('messageCreate', async(message) =>{
         if (command.toLowerCase() !== "help"){
             return
         }
-        message.reply("```.Help -> Shows help menu.\n.Setprefix newprefix(string) sets prefix for the selfbot.\n.Spam text(text) time(int) delay(int) {Use '(b)' for a space in text. Use '(rng)' for a random number}.```")
+        message.reply("```.Help -> Shows help menu.\n.Setprefix newprefix(string) sets prefix for the selfbot.\n.Spam text(text) times(int) delay(int) {Use '(b)' for a space in text. Use '(rng)' for a random number}.```")
         message.delete()
     }
 })
